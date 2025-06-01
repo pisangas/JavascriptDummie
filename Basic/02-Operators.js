@@ -54,3 +54,25 @@ console.log("\nLogical Operators");
 console.log("AND:", a > 5 && b < 30); // Logical AND
 console.log("OR:", a > 15 || b < 30); // Logical OR
 console.log("NOT:", !(a > 5)); // Logical NOT
+
+// Bitwise Operators
+console.log("\nBitwise Operators");
+console.log("Bitwise AND:", a & b); // Bitwise AND
+console.log("Bitwise OR:", a | b); // Bitwise OR
+console.log("Bitwise XOR:", a ^ b); // Bitwise XOR
+console.log("Bitwise NOT:", ~a); // Bitwise NOT
+
+//Ternaty Operator
+console.log("\nTernary Operator");
+const isRaining = true;
+
+isRaining ? console.log("Take an umbrella.") : console.log("No need for an umbrella.");
+
+//Truthy
+// all Int positives numbers, not zero, 
+// all strings with at least one character, 
+// all objects, and arrays are truthy.
+
+// Falsy
+// 0, null, undefined, NaN, false, 
+// empty strings are falsy.
