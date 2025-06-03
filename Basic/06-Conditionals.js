@@ -7,7 +7,7 @@ if(age > 17) {
 }
 
 // Ternary operator
-const message = age > 17 ? "You are an adult." : "You are a minor.";
+const message = age >= 18 ? "You are an adult." : "You are a minor.";
 console.log(message);
 
 // Switch statement
