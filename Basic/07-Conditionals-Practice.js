@@ -64,11 +64,45 @@ switch (month) {
 
 
 // 7. Muestra el número de días que tiene un mes dependiendo de la variable del ejercicio anterior
-
-// switch
+let daysInMonth;
+switch (month) {
+    case 1: // January
+    case 3: // March
+    case 5: // May
+    case 7: // July
+    case 8: // August
+    case 10: // October
+    case 12: // December
+        daysInMonth = 31;
+        break;
+    case 4: // April
+    case 6: // June
+    case 9: // September
+    case 11: // November
+        daysInMonth = 30;
+        break;
+    case 2: // February
+        daysInMonth = 28; // Not considering leap years for simplicity
+        break;
+    default:
+        daysInMonth = "Invalid month";
+}
 
 // 8. Usa un switch para imprimir un mensaje de saludo diferente dependiendo del idioma
-
-// 9. Usa un switch para hacer de nuevo el ejercicio 6
-
-// 10. Usa un switch para hacer de nuevo el ejercicio 7
+let language = "es"; // Spanish
+switch (language) {
+    case "en":
+        console.log("Hello!");
+        break;
+    case "es":
+        console.log("¡Hola!");
+        break;
+    case "fr":
+        console.log("Bonjour!");
+        break;
+    case "de":
+        console.log("Hallo!");
+        break;
+    default:
+        console.log("Language not supported.");
+}
