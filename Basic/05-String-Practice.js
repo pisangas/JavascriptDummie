@@ -41,3 +41,7 @@ string1 == string2 ?
 string1.length === string2.length ?
     console.log("The strings have the same length") : 
     console.log("The strings do not have the same length"); // Checks if two strings have the same length
+
+// 11. Extrae una subcadena de un string
+let substring = text.substring(0, 20); // Extracts a substring from the first 20 characters
+console.log("Extracted substring:", substring); // Displays the extracted substring

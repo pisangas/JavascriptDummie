@@ -106,3 +106,31 @@ switch (language) {
     default:
         console.log("Language not supported.");
 }
+
+// 9. Usa un switch para imprimir un mensaje dependiendo del día de la semana
+let dayOfWeek = 3; // Wednesday
+switch (dayOfWeek) {
+    case 1: // Monday
+        console.log("It's Monday, start of the week!");
+        break;
+    case 2: // Tuesday
+        console.log("It's Tuesday, keep going!");
+        break;
+    case 3: // Wednesday
+        console.log("It's Wednesday, we're halfway through!");
+        break;
+    case 4: // Thursday
+        console.log("It's Thursday, almost there!");
+        break;
+    case 5: // Friday
+        console.log("It's Friday, the weekend is near!");
+        break;
+    case 6: // Saturday
+        console.log("It's Saturday, enjoy your day!");
+        break;
+    case 7: // Sunday
+        console.log("It's Sunday, rest and recharge!");
+        break;
+    default:
+        console.log("Invalid day of the week.");
+}

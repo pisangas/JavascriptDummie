@@ -46,3 +46,9 @@ console.log("Resultado NOT:", !(Addition < 10)); // NOT
 
 // 9. Utiliza el operador ternario
 Addition > 10 ? console.log("Addition es mayor que 10") : console.log("Addition no es mayor que 10");
+
+// 10. Utiliza el operador de concatenación
+let firstName = "Eduardo";
+let lastName = "Medellin";
+let fullName = firstName + " " + lastName;
+console.log("Nombre completo:", fullName);

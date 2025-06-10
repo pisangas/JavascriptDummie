@@ -19,6 +19,8 @@ console.log(myArray2);
 myArray = []
 myArray.push(1); // Adds 1 to the end of the array
 myArray.push(2); // Adds 2 to the end of the array
+myArray.push(3); // Adds 3 to the end of the array
+myArray.push(4); // Adds 4 to the end of the array
 myArray.push("Eduardo");
 console.log(myArray); 
 myArray.pop(); // Removes the last element (Eduardo)
@@ -38,3 +40,9 @@ console.log(myNewArray); // Outputs the new array containing the first element
 
 myArray.splice(0, 1); // Removes the first element from myArray
 console.log(myArray); // Outputs the original array
+myArray.splice(0, 1, "Eduardo"); // Replaces the first element with "Eduardo"
+console.log(myArray); // Outputs the modified array
+myArray.splice(0, 0, "Eduardo"); // Adds "Eduardo" at the beginning of the array
+console.log(myArray); // Outputs the modified array with "Eduardo" added at the beginning
+myArray.splice(0, 1, "Eduardo", "Medellin"); // Replaces the first element with "Eduardo" and adds "Medellin"
+console.log(myArray); // Outputs the modified array with "Eduardo" and "Medellin" added at the beginning
