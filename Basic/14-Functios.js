@@ -51,9 +51,3 @@ function greet(name, callback) {
 greet("Eduardo", function() {
     console.log("Esta es una función de callback que se ejecuta después del saludo.");
 });
-
-//ForEach
-const numbers = [1, 2, 3, 4, 5];
-numbers.forEach(function(number) {
-    console.log(`El número es: ${number}`);
-});
