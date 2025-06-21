@@ -1,46 +1,46 @@
-// // //Functions
-// function getPerson(name, middleName, lastName) {
-//     return `Hola, ${name} ${middleName} ${lastName} !`;
-// }
+// //Functions
+function getPerson(name, middleName, lastName) {
+    return `Hola, ${name} ${middleName} ${lastName} !`;
+}
 
-// console.log(getPerson("Eduardo", "Gil", "Rivas"));
+console.log(getPerson("Eduardo", "Gil", "Rivas"));
 
-// //anonimas
-// const getPerson2 = function(name, middleName, lastName) {
-//     return `Hola, ${name} ${middleName} ${lastName} !`;
-// }
+//anonimas
+const getPerson2 = function(name, middleName, lastName) {
+    return `Hola, ${name} ${middleName} ${lastName} !`;
+}
 
-// console.log(getPerson2("Eduardo", "Gil", "Rivas"));
+console.log(getPerson2("Eduardo", "Gil", "Rivas"));
 
-// //Arrow functions
-// const getPerson3 = (name, middleName, lastName) => {
-//     return `Hola, ${name} ${middleName} ${lastName} !`;
-// }
+//Arrow functions
+const getPerson3 = (name, middleName, lastName) => {
+    return `Hola, ${name} ${middleName} ${lastName} !`;
+}
 
-// console.log(getPerson3("Eduardo", "Gil", "Rivas"));
+console.log(getPerson3("Eduardo", "Gil", "Rivas"));
 
-// //parameters
-// function sum(a, b) {
-//     return a + b;
-// }
-// console.log(sum(5, 10));
+//parameters
+function sum(a, b) {
+    return a + b;
+}
+console.log(sum(5, 10));
 
-// //default parameters
-// function sum2(a = 0, b = 0) {
-//     return a + b;
-// }
-// console.log(sum2(5));
+//default parameters
+function sum2(a = 0, b = 0) {
+    return a + b;
+}
+console.log(sum2(5));
 
-// //anidadas
+//anidadas
 
-// function externalFunction() {
-//     function internalFunction() {
-//         return "Hola desde la funcion interna";
-//     }
-//     return internalFunction();
-// }
+function externalFunction() {
+    function internalFunction() {
+        return "Hola desde la funcion interna";
+    }
+    return internalFunction();
+}
 
-// console.log(externalFunction());
+console.log(externalFunction());
 
 // //callback functions
 function greet(name, callback) {
