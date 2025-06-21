@@ -31,3 +31,14 @@ function sum2(a = 0, b = 0) {
 }
 console.log(sum2(5));
 
+//anidadas
+
+function externalFunction() {
+    function internalFunction() {
+        return "Hola desde la funcion interna";
+    }
+    return internalFunction();
+}
+
+console.log(externalFunction());
+
