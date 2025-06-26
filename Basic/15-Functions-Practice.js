@@ -1,6 +1,15 @@
 // 1. Crea una función que reciba dos números y devuelva su suma
+function sum(a, b) {
+    return a + b;}
+console.log(sum(5, 10));
 
 // 2. Crea una función que reciba un array de números y devuelva el mayor de ellos
+let myArrayNumbers = [1, 2, 3, 4, 5, 6, 7, 81, 9, 10];
+function findMaxNumber(array) {
+    return Math.max(...array);
+}
+
+console.log(findMaxNumber(myArrayNumbers));
 
 // 3. Crea una función que reciba un string y devuelva el número de vocales que contiene
 
