@@ -45,3 +45,26 @@ let { nombre: myName = "Desconocido", edad: myAge = 0, profesion: myProfession =
 console.log(myName); // Muestra "Juan"
 console.log(myAge); // Muestra 30
 console.log(myProfession); // Muestra "Ingeniero"
+
+// Sintaxis objetos by default anidado
+
+let estudiante = {
+    nombre: "Ana",
+    edad: 22,
+    curso: {
+        nombreCurso: "JavaScript",
+        duracion: "3 meses",
+        profesor: {
+            nombre: "Carlos",
+            experiencia: "5 años"
+        }
+    },
+    saludar: function() {
+        console.log(`Hola, soy ${this.nombre} y estudio ${this.curso.nombreCurso}`);
+    }
+};
+
+let { nombre: estudianteNombre = "Desconocido", curso: { nombreCurso, profesor: { nombre: profesorNombre = "Desconocido" } } } = estudiante;
+console.log(estudianteNombre); // Muestra "Ana"
+console.log(nombreCurso); // Muestra "JavaScript"
+console.log(profesorNombre); // Muestra "Carlos"
