@@ -68,3 +68,17 @@ let { nombre: estudianteNombre = "Desconocido", curso: { nombreCurso, profesor: 
 console.log(estudianteNombre); // Muestra "Ana"
 console.log(nombreCurso); // Muestra "JavaScript"
 console.log(profesorNombre); // Muestra "Carlos"
+
+//propagar (...)
+let newArray = [...myArray, 6, 7, 8];
+console.log(newArray); // Muestra [1, 2, 3, 4, 5, 6, 7, 8]
+
+//Combinar arrays
+let anotherArray = [9, 10];
+let combinedArray = [...myArray, ...anotherArray];
+console.log(combinedArray); // Muestra [1, 2, 3, 4, 5, 9, 10]
+
+//sintaxis objetos
+let person4 = {...persona, ciudad: "Medellin", pais: "Colombia"};
+console.log(person4); // Muestra el objeto persona completo
+
