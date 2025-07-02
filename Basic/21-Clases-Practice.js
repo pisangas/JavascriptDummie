@@ -1,8 +1,22 @@
 // 1. Crea una clase que reciba dos propiedades
-
-// 2. Añade un método a la clase que utilice las propiedades
+class Mascota{
+    constructor(nombre, raza, edad){
+        this.nombre = nombre;
+        this.raza = raza;
+        this.edad = edad;
+    }
+    // 2. Añade un método a la clase que utilice las propiedades
+    hablar() {
+        console.log(`Hola, soy ${this.nombre}, una mascota de raza ${this.raza} y tengo ${this.edad} años.`);
+    }
+}
 
 // 3. Muestra los valores de las propiedades e invoca a la función
+let miMascota = new Mascota("Firulais", "Labrador", 5);
+console.log(miMascota.nombre); // Muestra "Firulais"
+console.log(miMascota.raza); // Muestra "Labrador"
+console.log(miMascota.edad); // Muestra 5
+miMascota.hablar(); // Muestra "Hola, soy Firulais, una mascota de raza Labrador y tengo 5 años."
 
 // 4. Añade un método estático a la primera clase
 
