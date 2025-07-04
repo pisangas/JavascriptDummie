@@ -19,7 +19,7 @@ console.log(miMascota.edad); // Muestra 5
 miMascota.hablar(); // Muestra "Hola, soy Firulais, una mascota de raza Labrador y tengo 5 años."
 
 // 4. Añade un método estático a la primera clase
-class Mascota {
+class MyMascota {
     constructor(nombre, raza, edad) {
         this.nombre = nombre;
         this.raza = raza;
@@ -38,7 +38,7 @@ class Mascota {
 
 // 5. Haz uso del método estático
 
-Mascota.info(); // Muestra "Las mascotas son seres vivos que requieren cuidado y amor."
+MyMascota.info(); // Muestra "Las mascotas son seres vivos que requieren cuidado y amor."
 // 6. Crea una clase que haga uso de herencia
 let MascotaConDueño = class extends Mascota {
     constructor(nombre, raza, edad, dueño) {    
