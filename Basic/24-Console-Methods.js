@@ -63,5 +63,6 @@ function exampleFunction() {
 
 anotherFunction();
 
-
+//clear
+console.clear();
 
