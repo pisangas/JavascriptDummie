@@ -36,10 +36,3 @@ try {
         console.log("El valor es válido.");
     }
 }
-
-// 8. Crea un bucle que intente transformar a float cada valor y capture y muestre los errores
-
-
-// 9. Crea una función que verifique si un objeto tiene una propiedad específica y lance una excepción personalizada
-
-// 10. Crea una función que realice reintentos en caso de error hasta un máximo de 10
