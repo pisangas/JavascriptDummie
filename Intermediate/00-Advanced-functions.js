@@ -23,3 +23,25 @@ function returnGreeting(name){
 const greet2 = returnGreeting();
 
 greet2("retornno funcion");
+
+//Arrow Functions
+//1. Implicit return
+const multiply = (a, b) => a * b;
+
+console.log(multiply(2, 3));
+
+//This - lexico
+const car = {
+    brand: 'Toyota',
+    model: 'Corolla',
+    move: function() {
+        console.log(`El ${this.brand} ${this.model} se mueve`);
+    },
+    stop: () => {
+        console.log(`El ${this.brand} ${this.model} se detuvo`);
+    }
+
+};
+
+car.move();
+car.stop();
