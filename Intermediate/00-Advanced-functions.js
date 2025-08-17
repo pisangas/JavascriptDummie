@@ -44,4 +44,17 @@ const car = {
 };
 
 car.move();
-car.stop();
+//car.stop();
+
+//IIFE Inmediately Invoked Function Expression - la importancia de finalizar las instrucciones anteriores con (;)
+// IIFE es una funcion que se ejecuta inmediatamente despues de ser definida
+// Se usa para crear un scope privado y evitar contaminacion del scope global
+
+//IIFE Classic
+(function (){
+    console.log("IIFE Classic");
+})();
+
+(() => {
+    console.log("IIFE Classic Arrow");
+})();
