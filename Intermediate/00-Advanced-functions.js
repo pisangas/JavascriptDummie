@@ -69,3 +69,11 @@ function sum(...numbers) {
 }
 
 console.log(sum(1, 2, 3, 4, 5)); //15
+
+//SPREAD (...) operator
+function displayInfo(name, age, ...hobbies) {
+    console.log(`Nombre: ${name}, Edad: ${age}`);
+    console.log(`Hobbies: ${hobbies.join(', ')}`);
+}
+
+displayInfo("Egil", 30, "Leer", "Programar", "Viajar");
