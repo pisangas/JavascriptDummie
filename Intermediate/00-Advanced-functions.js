@@ -102,3 +102,23 @@ function factorial(n) {
 }
 
 console.log(factorial(5)); //120
+
+//Funciones parciales - Permite crear una nueva funcion con algunos de los parametros ya definidos
+function sumPartial(a){
+    return function(b, c){
+        return (a + b) * c;
+    }
+}
+const sumWith5 = sumPartial(5)(10, 2); //30
+console.log(sumWith5);
+
+//Currying - tecnica de transformar una funcion con multiples argumentos en una secuencia de funciones que toman un solo argumento
+function currySum(a) {
+    return function(b) {
+        return function(c) {
+            return a + b + c;
+        }
+    }
+}
+const curriedResult = currySum(1)(2)(3); //6
+console.log(curriedResult);
