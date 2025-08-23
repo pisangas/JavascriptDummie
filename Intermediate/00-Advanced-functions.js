@@ -122,3 +122,27 @@ function currySum(a) {
 }
 const curriedResult = currySum(1)(2)(3); //6
 console.log(curriedResult);
+
+const currySumAB = currySum(1)(2); //funcion que espera el tercer argumento
+console.log(currySumAB(3)); 
+console.log(currySumAB(4)); 
+console.log(currySumAB(10));
+
+//callbacks - funcion que se pasa como argumento a otra funcion y se ejecuta dentro de esa funcion
+function processData(data, callback) {
+    const result = sum(...data);
+    callback(result);
+}
+
+function processResult(result) {
+    console.log(result);
+}
+
+function processResult1(result) {
+    console.log(`El resultado es: ${result}`);
+}
+
+processData([1, 2, 3, 4, 5], processResult);
+processData([1, 2, 3, 4, 5], processResult1);
+processData([1, 2, 3, 4, 5], result => console.log(`Resultado con arrow function: ${result}`));
+
