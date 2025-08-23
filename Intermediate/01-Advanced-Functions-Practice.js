@@ -1,4 +1,21 @@
 // 1. Crea una función que retorne a otra función
+const counterLetters = function (word){
+        return word.length;
+}
+
+function returnCounterLetters(func, word){
+    return func(word);
+}
+
+
+
+
+
+
+
+
+
+
 
 // 2. Implementa una función currificada que multiplique 3 números
 
