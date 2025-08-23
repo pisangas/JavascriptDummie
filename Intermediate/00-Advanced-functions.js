@@ -91,3 +91,14 @@ const counter1 = makeCounter()
 const counter2 = makeCounter()
 counter1(); //1
 counter1(); //2
+
+//Recursividad - Cuando una funcion se llama a si misma, debe tener una condicion de salida de lo contrario nunca acabaria de ejecutarse y agotaria la pila de llamadas
+function factorial(n) {
+    if (n === 0) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+
+console.log(factorial(5)); //120
