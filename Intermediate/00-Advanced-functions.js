@@ -77,3 +77,17 @@ function displayInfo(name, age, ...hobbies) {
 }
 
 displayInfo("Egil", 30, "Leer", "Programar", "Viajar");
+
+//Clousure - es una funcion que recuerda el entorno en el que fue creada
+function makeCounter() {
+    let count = 0; //variable privada
+     return  function() {
+        count++;
+        console.log(`valor del contador: ${count}`);        
+    }    
+}
+
+const counter1 = makeCounter()
+const counter2 = makeCounter()
+counter1(); //1
+counter1(); //2
