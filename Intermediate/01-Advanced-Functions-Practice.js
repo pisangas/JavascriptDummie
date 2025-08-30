@@ -7,12 +7,7 @@ function returnCounterLetters(func, word){
     return func(word);
 }
 
-
-
-
-
-
-
+console.log(returnCounterLetters(counterLetters, "Hola Mundo"));
 
 
 
