@@ -8,6 +8,12 @@ function returnCounterLetters(func, word){
 }
 
 console.log(returnCounterLetters(counterLetters, "Hola Mundo"));
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 95f434eb3132ffe48e4dbfdaba561862b58b118d
 
 // 2. Implementa una función currificada que multiplique 3 números
 function multiply(a){
