@@ -1,3 +1,6 @@
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=black)  
+![Status](https://img.shields.io/badge/Status-En%20progreso-blue)
+
 # JavaScriptDummie
 
 > Un proyecto didáctico de JavaScript para principiantes – desde lo básico hasta lo intermedio.
@@ -6,45 +9,51 @@
 
 ##  Descripción
 
-**JavaScriptDummie** es un repositorio que reúne ejercicios, ejemplos y patrones de aprendizaje de JavaScript, ideal para quienes están comenzando o quieren reforzar conceptos fundamentales: desde sintaxis básica hasta técnicas intermedias.
+**JavaScriptDummie** es un repositorio estructurado con ejemplos, ejercicios y prácticas que cubren desde la sintaxis más básica hasta conceptos intermedios, ideal para quienes comienzan o desean reforzar fundamentos de JavaScript.:contentReference[oaicite:0]{index=0}
 
 ---
 
 ##  Niveles incluidos
 
-- **Básico** (`Basic/`): Variables, tipos de datos, operadores, estructuras de control y funciones simples.
-- **Intermedio** (`Intermediate/`): Funciones avanzadas, manipulación del DOM, promesas, uso de `fetch`, etc.
+- **Básico (`Basic/`)**:
+  - Variables, tipos de datos, operadores, estructuras de control (if, loops).
+  - Funciones simples y fundamentos de lógica.
 
-Objetivos de aprendizaje
+- **Intermedio (`Intermediate/`)**:
+  - Funciones avanzadas, manejo del DOM.
+  - Promesas, uso de `fetch` para llamadas a APIs.:contentReference[oaicite:1]{index=1}
 
-Dominar sintaxis y estructuras de control.
+---
 
-Manipular el DOM: seleccionar elementos, eventos y actualizaciones dinámicas.
+##  Objetivos de aprendizaje
 
-Comprender promesas, fetch e interacción con APIs.
+- Consolidar la sintaxis y control de flujo en JavaScript.
+- Manipular el DOM: seleccionar elementos, gestionar eventos y actualizar dinámicamente.
+- Manejar asincronía: entender promesas y realizar solicitudes HTTP con `fetch`.
+- Construir una base sólida para avanzar hacia desarrollo de frontend o full-stack.
 
-Prepararse para proyectos reales en frontend o full-stack.
+---
 
-Próximas mejoras sugeridas
+##  Próximas mejoras sugeridas
 
-Añadir una carpeta Avanzado con temas como Async/Await, WebSockets o módulos ES6.
+- Añadir un nivel **Avanzado** con temas como Async/Await, WebSockets o módulos ES6.
+- Incorporar ejercicios interactivos o herramientas de autoevaluación integradas.
+- Incluir mini-tutoriales comentados dentro de cada archivo.
+- Añadir ejemplos con frameworks modernos como React o Vue como material complementario.:contentReference[oaicite:2]{index=2}
 
-Incluir ejercicios interactivos o autoevaluaciones.
-
-Agregar explicaciones comentadas o mini-tutoriales dentro de cada archivo.
-
-Incluir ejemplos con frameworks modernos (React, Vue, etc.) como bonus.
+---
 
 Contribuciones
 
-¿Te gustaría mejorar este repositorio? Todo aporte es bienvenido:
+¡Tus aportes son bienvenidos! Puedes colaborar de las siguientes maneras:
 
-Reporta ideas o errores mediante Issues.
+Realiza sugerencias o reporta errores con Issues.
 
-Propón código con nuevos ejemplos o mejoras vía Pull Requests.
+Envía mejoras o nuevos ejemplos por medio de Pull Requests.
 
-Contacto
+---
+📬 Contacto
 
-Proyecto mantenido por Eduardo Gil Rivas – @pisangas
+👨‍💻 Autor: Eduardo (pisangas)
 
-Conecta conmigo en LinkedIn: https://www.linkedin.com/in/eduardogilrivas/
+🔗 GitHub: @pisangas
