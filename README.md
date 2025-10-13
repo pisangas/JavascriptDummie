@@ -9,7 +9,7 @@
 
 ##  Descripción
 
-**JavaScriptDummie** es un repositorio estructurado con ejemplos, ejercicios y prácticas que cubren desde la sintaxis más básica hasta conceptos intermedios, ideal para quienes comienzan o desean reforzar fundamentos de JavaScript.:contentReference[oaicite:0]{index=0}
+**JavaScriptDummie** es un repositorio estructurado con ejemplos, ejercicios y prácticas que cubren desde la sintaxis más básica hasta conceptos intermedios, ideal para quienes comienzan o desean reforzar fundamentos de JavaScript.
 
 ---
 
